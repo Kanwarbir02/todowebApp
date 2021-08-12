@@ -33,7 +33,7 @@ const itemsArr= [item1, item2, item3];
 //   if(err){
 //     console.log(err);
 //   }else{
-//     console.log("Added Sexfully");
+//     console.log("Added Successfully");
 //   }
 // })
 // The Home Page Collection Ends
