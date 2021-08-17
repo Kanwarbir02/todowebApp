@@ -16,15 +16,15 @@ const itemsSchema = new mongoose.Schema({
 Item = mongoose.model("item", itemsSchema);
 
 const item1= new Item({
-  name: "Do Homework"
+  name: "Sample Task 1"
 });
 
 const item2= new Item({
-  name: "Buy Grocery"
+  name: "Sample Task 2"
 });
 
 const item3= new Item({
-  name: "Sleep"
+  name: "Sample Task 3"
 });
 
 const itemsArr= [item1, item2, item3];
@@ -36,7 +36,12 @@ const itemsArr= [item1, item2, item3];
 //     console.log("Added Successfully");
 //   }
 // })
+
+
 // The Home Page Collection Ends
+
+
+
 
 // The Parameter Collection
 
@@ -48,7 +53,9 @@ const listSchema = new mongoose.Schema({
 const List = mongoose.model("List", listSchema);
 //Database Shit Ends
 
-//Creating App + Formalities
+
+
+//Creating App 
 const app = express();
 
 app.set('view engine', 'ejs');
